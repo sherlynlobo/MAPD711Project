@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
         Intent i2 = new Intent(MainActivity.this, Register.class);
         startActivity(i2);
     }
+    //for login button
+    public void ClickLogin(View view){
+        Intent i3 = new Intent(MainActivity.this, Home.class);
+        startActivity(i3);
+    }
+
 
 
 }
